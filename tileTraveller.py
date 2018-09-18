@@ -1,3 +1,5 @@
+# https://github.com/GudniNatan/tileTraveller
+
 # We start of assuming you can travel in any direction.
 # If the player is touching a border we eliminate the direction of that border
 # If the player is touching a wall we eliminite the direction of that wall

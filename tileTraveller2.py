@@ -1,3 +1,18 @@
+# https://github.com/GudniNatan/tileTraveller
+
+""" 
+1.
+It was easier to implement the second version, but that may just be because I had already implemented it before.
+
+2.
+It is defenitely way easier to read the second version. You don't need to comprehend the entire program to understand what it does.
+
+3.
+This version is much more malliable. If i wanted to it would be easy to add a second player.
+Functions are very important when it comes to scalability.
+
+"""
+
 def getDirections(x, y):
     ''' Returns the directions one could travel in from x, y according to the diagram '''
     n = True
@@ -15,9 +30,7 @@ def getDirections(x, y):
     elif x == 3:
         e = False
 
-
     #check walls
-
     if y == 1:
         e = False
         w = False
@@ -28,7 +41,7 @@ def getDirections(x, y):
         w = False
     elif x == 2 and y == 3:
         s = False
-    
+    //
     return n, e, s, w
 
 def printAvailableDirections(x, y):
