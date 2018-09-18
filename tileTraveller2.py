@@ -41,7 +41,6 @@ def getDirections(x, y):
         w = False
     elif x == 2 and y == 3:
         s = False
-    //
     return n, e, s, w
 
 def printAvailableDirections(x, y):
